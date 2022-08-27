@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(./photo-1471879832106-c7ab9e0cee23.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    position: relative;
+    padding-bottom: 240px;
+    display: inline-block;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header{
+    width: 900px;
+    margin: auto;
+    position: absolute;
+    top: 30px;
+    left: 246px;
+}
+.header img{
+    display: inline-block;
+}
+.header ul{
+    text-align: right;
+    margin-top: -27px;
+    position: absolute;
+    top: 35px;
+    left: 350px;
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li:hover a{
+    color: orange;
+}
+.header ul li a{
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 25px;
+    color: #fff;
+}
+.main h2{
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    font-style: italic;
+}
+.main h2::after{
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    color: rgb(243, 19, 19);
+}
+.main h2::before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    color: rgb(250, 60, 2);
+    margin-right: 8px;
+    margin-top: -10px;
+
+}
+
+
+/* slide */
+
+.slide{
+    width: 950px;
+    margin: auto;
+    padding: 100px 0;
+    padding-bottom: 100px;
+}
+.slide h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 29px;
+}
+.imge{
+    position: absolute;
+    top: 96%;
+}
+.imge img{
+    width: 205px;
+    display: inline-block;
+    float: left;
+    box-shadow: -1px 0px 10px 0px #060606;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+.content p{
+    margin-left: 178px;
+}
+.content{
+    margin-left: 110px;
+}
+
+
+/* service */
+
+.service{
+    text-align: center;
+    padding: 60px 0 40px 0;
+    background: #1a195c;
+    color: #e1dede;
+}
+.service h2{
+    padding-bottom: 40px;
+    color: rgb(214, 59, 2);
+}
+.div1{
+    display: inline-block;
+}
+.div1 i{
+    font-size: 20px;
+    background: rgb(223, 94, 47);
+    padding: 10px 10px;
+    border-radius: 0px 17px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.div2 i{
+    font-size: 20px;
+    background: rgb(223, 94, 47);
+    padding: 10px 10px;
+    border-radius: 0px 17px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.div3 i{
+    font-size: 20px;
+    background: rgb(223, 94, 47);
+    padding: 10px 10px;
+    border-radius: 0px 17px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.div1 h3{
+    font-size: 21px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.div2 h3{
+    font-size: 21px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.div3 h3{
+    font-size: 21px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.div1 ul li{
+    list-style-type: none;
+}
+.div2 ul li{
+    list-style-type: none;
+}
+.div3 ul li{
+    list-style-type: none;
+}
+.div1 ul li::before{
+    content: "\f560";
+    font-family: "Font Awesome 5 Free";
+    color: rgb(243, 19, 19);
+    margin-right: 5px;
+    font-weight: 600;
+}
+.div2 ul li::before{
+    content: "\f560";
+    font-family: "Font Awesome 5 Free";
+    color: rgb(243, 19, 19);
+    margin-right: 5px;
+    font-weight: 600;
+
+}
+.div3 ul li::before{
+    content: "\f560";
+    font-family: "Font Awesome 6 Free";
+    color: rgb(243, 19, 19);
+    margin-right: 5px;
+    font-weight: 600;
+}
+.div2{
+    display: inline-block;
+    margin-left: 35px;
+}
+.div3{
+    display: inline-block;
+    margin-left: 35px;
+}
+
+/* button */
+
+.div3 a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffff;
+    background: rgb(223, 94, 47);
+    padding: 10px 10px;
+    border-radius: 4px;
+    box-shadow: 3px 4px 10px black;
+    position: relative;
+    z-index: 1;
+}
+.div3 a::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    color: #fff;
+    transition: .5s;
+    z-index: -1;
+}
+.div3 a:hover::before{
+    width: 100%;
+}
+
+
+.div2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffff;
+    background: rgb(223, 94, 47);
+    padding: 10px 10px;
+    border-radius: 4px;
+    box-shadow: 3px 4px 10px black;
+    position: relative;
+    z-index: 1;
+}
+.div2 a::before{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    color: #fff;
+    transition: .5s;
+    z-index: -1;
+}
+.div2 a:hover::before{
+    height: 100%;
+}
+
+
+.div1 a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffff;
+    background: rgb(223, 94, 47);
+    padding: 10px 10px;
+    border-radius: 4px;
+    box-shadow: 3px 4px 10px black;
+    position: relative;
+    z-index: 1;
+}
+.div1 a::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+    background: #000;
+    color: #fff;
+    transition: .5s;
+    z-index: -1;
+}
+.div1 a:hover::before{
+    width: 100%;
+}
+
+/* form */
+
+.fromm{
+    padding: 40px 40px;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+
+}
+#kl{
+    border: none;
+    padding: 20px 150px 0 0;
+    border-bottom: 1px solid rgb(196, 10, 10);
+    margin-left: 0;
+}
+
+
+/* double hover */
+
+.fromm a{
+    display: inline-block;
+    position: relative;
+    padding: 12px 75px;
+    font-size: 20px;
+    margin-top: 25px;
+    background: orange;
+    border: none;
+    text-decoration: none;
+    z-index: 1;
+    color: #fff;
+    border-radius: 7px;
+}
+
+
+.fromm a::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    left: 0;
+    top: 0;
+    background: rgb(10, 10, 10);
+    color: #fff;
+    z-index: -1;
+    transition: .5s;
+}
+.fromm a:hover::before{
+    width: 51%;
+    background: rgb(0, 0, 0);
+}
+
+.fromm a::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    right: 0;
+    top: 0;
+    background: rgb(224, 7, 7);
+    color: #fff;
+    z-index: -1;
+    transition: .5s;
+}
+.fromm a:hover::after{
+    width: 50%;
+    background: red;
+}
+
+.footer{
+    padding: 20px 20px;
+    text-align: center;
+    background: rgb(30, 44, 65);
+}
+.footer p{
+    color: #fff;
+}
+.footer span{
+    color: rgb(218, 85, 9);
+    font-size: 20px;
+}
